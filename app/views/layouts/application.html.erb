@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id='header'>
+		<!-- Header Image Displayes here -->
+</div>
+<div id='menu'>
+		<!-- Header Image Displayes here -->
+<div id="navbar">
+	<ul>
+		<li><a href="/index.html">Home</a></li>
+		<li><a href="/cart">Cart</a></li>
+		<li><a href="/order">Order</a></li>
+		<li><a href="/register">Register</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">Login</a></li>
+		<li><a href="#">Logout</a></li>
+		<li><a href="/about">About</a></li>
+		<li><a href="/items">Products</a></li>
+		
+	</ul>
+</div>
+</div>
+
+<%= yield %>
+
+</body>
+</html>
+
