@@ -22,7 +22,7 @@ App::Application.routes.draw do
   get '/logout' => 'user#logout'
   
   resources :orders do
-  	reources :items
+  	resources :items
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
